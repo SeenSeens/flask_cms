@@ -56,7 +56,7 @@ configure_logging(app)
 from app.routes.main import main
 app.register_blueprint(main)
 
-from .routes.admin import admin_bp
+from app.routes.admin import admin_bp
 app.register_blueprint(admin_bp)
 
 # Serve uploads files

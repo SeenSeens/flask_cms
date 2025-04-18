@@ -32,16 +32,25 @@
 - `app/services`: Xử lý các logic nghiệp vụ (business logic) của ứng dụng.
 - `app/static/`: Thư mục dành cho các tệp CSS, JavaScript và hình ảnh.
 - `app/templates/`: Mẫu Jinja2 cho ứng dụng.
+- `docker`:
+- `docker/nginx.conf`:
+- `docker/supervisord.conf`:
+- `docs`:
+- `log`:
+- `media`:
 - `instance/`: Folder for instance-specific configurations (not under version control).
 - `migrations`: Thư mục chứa các file liên quan đến quá trình di chuyển (migration) cơ sở dữ liệu, được tạo ra bởi Flask-Migrate và Alembic.
 - `tests`: Chứa các test cho gói ứng dụng.
 - `utils`: Thư mục chứa các hàm sử dụng chung
+- `.dockerignore`:
 - `.env`: General environment variables (not to be committed).
 - `.env.example`
 - `.flaskenv`: File chứa các biến môi trường dành riêng cho Flask.
 - `.gitignore`: 
-- `application.py`: Entry point for the Flask application.
+- `app.py`: Entry point for the Flask application.
 - `config.py`: Chứa các thiết lập cấu hình của ứng dụng.
+- `docker-compose.yml`:
+- `Dockerfile`:
 - `flask-template.log`
 - `README.md`: File chứa thông tin và hướng dẫn sử dụng dự án
 - `requirements.txt`: Danh sách các thư viện và phiên bản cần cài đặt cho dự án.
@@ -89,7 +98,6 @@
 
 #### • Tạo meme, ảnh động, và thiết kế tùy chỉnh
 - Hỗ trợ sáng tạo meme, GIF, và hình ảnh độc đáo theo yêu cầu.
-
 
 
 ## Đóng góp
